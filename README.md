@@ -15,6 +15,10 @@ This repository contains fully tested, idempotent SQL scripts, complete schemas,
 | **Experiment 04** | Joins, Subqueries & EXPLAIN Plans | `INNER JOIN`, `LEFT JOIN`, Self-Join, 3-Way Join, Correlated Subqueries, `EXISTS`, Simulated `INTERSECT`/`EXCEPT`, `EXPLAIN` | [experiment_04.sql](EXPERIMENT_04/experiment_04.sql) |
 | **Experiment 05** | Views, Updatability & Recursive CTEs | Aggregate Views, View Updatability Rules, Self-Referential FKs, Common Table Expressions, Recursive CTE | [experiment_05.sql](EXPERIMENT_05/experiment_05.sql) |
 | **Experiment 06** | Stored Procedures & Triggers | Stored Procedures, `SIGNAL SQLSTATE`, `BEFORE UPDATE` Validation Trigger, `AFTER UPDATE` Audit Logging | [experiment_06.sql](EXPERIMENT_06/experiment_06.sql) |
+| **Experiment 07** | Schema Normalization (UNF to BCNF) | 1NF, 2NF, 3NF, BCNF, Lossless Join, Dependency Preservation | [experiment_07.sql](EXPERIMENT_07/experiment_07.sql) |
+| **Experiment 08** | Transactions & Concurrency Isolation | `START TRANSACTION`, `COMMIT`, `ROLLBACK`, `SAVEPOINT`, Isolation Levels, ACID | [experiment_08.sql](EXPERIMENT_08/experiment_08.sql) |
+| **Experiment 09** | Single-Column & Composite Indexing | `CREATE INDEX`, Composite Indexes, Benchmarking, `EXPLAIN` | [experiment_09.sql](EXPERIMENT_09/experiment_09.sql) |
+| **Experiment 10** | Query Optimization & Anti-Patterns | Anti-Patterns vs. Optimized Queries, Execution Plans, `EXPLAIN` | [experiment_10.sql](EXPERIMENT_10/experiment_10.sql) |
 
 ---
 
@@ -129,3 +133,9 @@ mysql -u root -p < EXPERIMENT_06/experiment_06.sql
 ## 📌 Source Code Integrity Statement
 
 The primary source code for all lab practicals consists of the executable `.sql` scripts located in the respective experiment folders. All aims, schemas, column names, constraints, and sample data have been strictly reproduced from the original laboratory materials and validated for correctness and idempotency.
+
+---
+
+## 🏅 Certificates
+
+- [SQL (Basic) Certificate](certificates/sql_basic_certificate.pdf)
